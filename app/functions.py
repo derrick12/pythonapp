@@ -1,6 +1,6 @@
 students = []
 
-def get_students_titlecase():
+def get_students_title():
     students_titlecase = []
     for student in students:
         students_titlecase = student.title()
