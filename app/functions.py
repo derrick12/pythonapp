@@ -20,3 +20,10 @@ def print_students_titlecase():
 def add_student(name,student_id=9696):
     student = {"name": name, "student_id": student_id}
     students.append(student)
+
+
+def var_args(name, *args): #for keyword argument...(name,**kwargs)
+    print(name)
+    print(args)
+    # For keyword arguments...
+    #print(kwargs["description"], kwargs["feedback"])
